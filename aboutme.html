@@ -5,6 +5,68 @@
   </head>
   <body background="shawnn-tan-265187.jpg">
     <h1 style="color:royalblue;text-align:center;font-family:courier">About Me</h1>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+      }
+      
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: grey
+      }
+      
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        background-color:lavenderblush;
+        min-width:160px
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        display:block;
+        text-align:left;
+      }
+      
+      .dropdown-content a:hover {background-color: lavenderblush}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+      }
+    </style>
+    
+    <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#biography">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Projects</a>
+    <div class="dropdown-content">
+      <a href="#">Scratch</a>
+      <a href="#">Recoloring</a>
+      <a href="#">LED Show</a>
+      <a href="#">Sensor Robot</a>
+    </div>
+  </li>
+</ul>
+          
+        
  <div>
    <center>
       <input type="button" value="Home" onclick="window.location.href='https://sameeraaluri.github.io/Portfolio/aboutme.html'"/>
